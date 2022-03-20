@@ -1,0 +1,149 @@
+.body {
+  margin: 0;
+  padding: 0;
+  
+}
+.title {
+  align-content: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+  .parent {
+    height: auto;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+ .cardGreen {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  justify-content: space-between;
+    background-color:  #6592CF;
+    align-items: center;
+
+  }
+  .visualGreen {
+    height: 100px;
+    width: 100%;
+    margin: 0;
+    padding: 50px;
+  }
+    #forma1 {
+      margin: 75px 42px;
+      width: 300px;
+      height: 150px;
+      background: #243D83;
+      overflow: hidden;
+    }
+    #circulo {
+      border-radius: 25px;
+      width: 50px;
+      height: 50px;
+      background: #EEB850;
+      margin: 50px auto;
+      box-shadow: 0 0 0 50px #243D83, 0 0 0 100px #6592CF;
+    }
+  
+  .cardYellow {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(233, 231, 107);
+    
+  }
+  .back {
+    background: #5d3a3a;
+    margin: 100px;
+    height: 200px;
+    width: 200px;
+    
+  }
+  .cuadradito{
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    margin: 0;
+  }
+ 
+  .cardBlue {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(133, 122, 226);
+
+  }
+  #contenedor {
+    display: grid;
+    grid-template: "div div";
+    place-items: center;
+    background: #62374e;
+    margin: 150px;
+    height: 100px;
+    width: 100%;
+  }
+  #a, #b, #c, #d{
+    width: 25px;
+    height: 25px;
+    background: #fdc57b;
+  }
+  #a {
+    top: 50px;
+    left: 50px;
+  }
+  #b {
+    top: 50px;
+    left: 300px;
+  }
+  #c {
+    top: 200px;
+    left: 50px;
+  }
+  #d {
+    top: 200px;
+    left: 300px;
+  }
+
+  .visualBlue {
+    height: 100px;
+    width: 100%;
+    margin: 0;
+    padding: 50px;
+  }
+  .cardRed {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    justify-content: space-between;
+    text-align: center;
+    background-color: rgb(247, 140, 126);
+
+  }
+
+  .visualRed{
+    margin: 0;
+    padding: 50px;
+    background: #62306D;
+  }
+  #naty, #pe, #luso {
+      width: 50px;
+      height: 50px;
+      background: #F7EC7D;
+      display: inline-block;
+    }
+  
+
+  #naty {
+    margin: 0 100px;
+    border-radius: 50px 50px 0 0;
+  }
+  #pe, #luso {
+    border-radius: 0 0 50px 50px;
+  }
+  #luso {
+    margin-left: 45px;
+  }
